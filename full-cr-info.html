@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow</title>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cr-info.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="setting-wrapper">
+      <div class="setting-container">
+        <div class="setting-sidebar">
+          <div class="setting-sidebar-inner">
+            <img src="assets/images/settings/logo-white.png" alt="">
+            <ul class="settings-nav">
+              <li><a href="#"><img src="assets/images/settings/dashboard.png" alt="">Dashboard</a></li>
+              <li><a href="#"><img src="assets/images/settings/CreditCard.png" alt="">Cards</a></li>
+              <li class="current-item"><a href="#"><img src="assets/images/settings/transactions.png" alt="">Transactions</a></li>
+              <li><a href="#"><img src="assets/images/settings/companies.png" alt="">Companies</a></li>
+              <li><a href="#"><img src="assets/images/settings/settings.png" alt="">Settings</a></li>
+            </ul>
+          </div>
+        </div><!-- setting-sidebar end-->
+        <div class="settings-main">
+          <div class="settings-menu">
+              <div class="title-wrap">Companies</div> 
+              <div class="nav-wrap">
+                
+                    <ul class="language-dropdown"> 
+                      <li class="no-border no-arrow">
+                        <div class="search-wrap"><input class="search-input" type="text" placeholder="Search..."></div>
+                      </li>
+                      <li class="no-border no-arrow have-notifications"><a href="#"><img src="assets/images/settings/bell.png" alt=""></a></li>
+                      <li class="big-font"><a href="#"><img src="assets/images/settings/buildings-architecture.png" alt=""> inFlow</a>
+                        <ul>
+                          <li><a href="#">sub 1</a></li>
+                          <li><a href="#">sub 2</a></li>
+                          <li><a href="#">sub 3</a></li>
+                          <li><a href="#">sub 4</a></li>
+                        </ul>
+                       </li> 
+                      <li><a href="#"><img src="assets/images/settings/user-settings.png" alt=""> Adam smith</a>
+                        <ul>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">settings</a></li>
+                        </ul>
+                       </li> 
+                        <li><a href="#">EN</a>
+                          <ul>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">GE</a></li>
+                          </ul>
+                      </li> 
+                     
+                    </ul>
+               
+               
+              </div>
+          </div>
+          <div class="settings-main-inner"> 
+            <div class="settings-container pl-60">
+              <a href="companies.html" class="btn-back"><img src="assets/images/arrow-left-circle.png" alt="back"></a>
+              <div class="inside-nav">
+                <h2>Full CR Info</h2>
+             </div>
+
+            <div class="cr-info-wrapper cr-info">
+              <h3 class="cr-heading">Personal Information</h3>
+              <div class="cr-info-row">
+                <div><label>National ID Number</label><input type="text" name="idnumber" placeholder="7B78546787"></div>
+                <div><label>First Name</label><input type="text" name="fname" placeholder="Adam"></div>
+                <div><label>Last Name</label><input type="text" name="lname" placeholder="Smith"></div>
+              </div>
+              <div class="cr-info-row">
+                <div><label>Email Address</label><input type="text" name="email" placeholder="emailaddress@email.com"></div>
+                <div><label>Phone</label><input type="text" name="phone" placeholder="+96685858585"></div> 
+              </div>
+              <div class="cr-info-row">
+                <div class="half-width"><label>Address Details</label>
+                <textarea>The Kingdom of Saudi Arabia 
+123456  
+Riyadh 
+EN-US  
+Najd Deerah Dist  
+Makkah Road</textarea>
+              </div>
+            </div>
+            <h3 class="cr-heading">Company Information</h3>
+            <div class="cr-info-row">
+              <div><label>Company CR Number</label><input type="text" name="crn" placeholder="4030007353"></div>
+              <div><label>Company Name</label><input type="text" name="cn1" placeholder="شركة المباني مقاولون عامون ذ م م"></div>
+              <div><label>Registration Number</label><input type="text" name="rn" placeholder="7000117387"></div>
+            </div>
+            <div class="cr-info-row">
+              <div><label>Company Phone</label><input type="text" name="cp" placeholder="966565790130"></div>
+              <div><label>Business Email</label><input type="text" name="be" placeholder="4030007353@yopmail.com"></div>
+              <div><label>Business Category</label><input type="text" name="bc" placeholder="Finance"></div>
+            </div>
+            <div class="cr-info-row">
+              <div class="half-width"><label>Address Details</label>
+              <textarea>المملكة العربية السعودية
+00000 
+جدة
+State
+0000 0000- جدة 00000
+building number - 0000, unit number - null</textarea>
+            </div>
+          </div>
+          <div class="cr-info-row">
+            <input type="button"  class="btn-confirm" value="Confirm & Continue">
+            <input type="button"  class="btn-cancel" value="Decline">
+          </div>
+            </div><!-- cr-info-wrapper -->
+             
+               
+               
+            </div><!-- settings-container-->
+          </div>
+        </div><!-- settings-main end-->
+      </div>
+    </section>
+   
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>

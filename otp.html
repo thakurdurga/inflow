@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow-OTP</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login-style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="login-wrapper">
+      <div class="login-container">
+        <div class="login-sidebar">
+          <div class="login-sidebar-inner">
+            <img src="assets/images/box-icon.png" alt="">
+            <h2>A platform built for companies</h2>
+          <p>Lorem ipsum dolor sit amet consectetur rat nunc adipiscing condimentum eget est platea feugiat amet egestas.</p>
+          </div>
+        </div><!-- login-sidebar end-->
+        <div class="login-main">
+          <div class="login-menu">
+              <div class="logo-wrap"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div> 
+              <div class="language-wrap">
+                <div class="language-box"> 
+                    <ul class="language-dropdown"> 
+                        <li><a href="#">EN</a>
+                        <ul>
+                          <li><a href="#">FR</a></li>
+                          <li><a href="#">GE</a></li>
+                        </ul>
+                      </li> 
+                    </ul>
+                </div>
+               
+              </div>
+          </div>
+          <div class="login-main-inner align-center">
+            <h2 class="medium-margin">Enter security code</h2>
+            <p>Please check your email for security code</p>
+           <form>
+            <div class="input-wrap otp-box">
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              <input class="input-field input-text" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+              
+            </div>
+            <div class="input-wrap"><input type="submit" class="input-submit" value="Login"></div>
+            <div class="input-wrap forgot-password">Not received the code? <a href="#"> &nbsp;Resend</a></div>
+           </form>
+          </div>
+        </div><!-- login-main end-->
+      </div>
+    </section>
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>

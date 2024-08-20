@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow</title>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/rejected.css"> 
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="setting-wrapper">
+      <div class="setting-container">
+        <div class="setting-sidebar">
+          <div class="setting-sidebar-inner">
+            <img src="assets/images/settings/logo-white.png" alt="">
+            <ul class="settings-nav">
+              <li class="current-item"><a href="#"><img src="assets/images/settings/dashboard.png" alt="">Dashboard</a></li>
+              <li><a href="#"><img src="assets/images/settings/CreditCard.png" alt="">Cards</a></li>
+              <li><a href="#"><img src="assets/images/settings/transactions.png" alt="">Transactions</a></li>
+              <li><a href="#"><img src="assets/images/settings/companies.png" alt="">Companies</a></li>
+              <li><a href="#"><img src="assets/images/settings/settings.png" alt="">Settings</a></li>
+            </ul>
+          </div>
+        </div><!-- setting-sidebar end-->
+        <div class="settings-main">
+          <div class="settings-menu">
+              <div class="title-wrap">Dashboard</div> 
+              <div class="nav-wrap">
+                
+                    <ul class="language-dropdown"> 
+                      <li class="no-border no-arrow">
+                        <div class="search-wrap"><input class="search-input" type="text" placeholder="Search..."></div>
+                      </li>
+                      <li class="no-border no-arrow have-notifications"><a href="#"><img src="assets/images/settings/bell.png" alt=""></a></li>
+                      <li class="big-font"><a href="#"><img src="assets/images/settings/buildings-architecture.png" alt=""> inFlow</a>
+                        <ul>
+                          <li><a href="#">sub 1</a></li>
+                          <li><a href="#">sub 2</a></li>
+                          <li><a href="#">sub 3</a></li>
+                          <li><a href="#">sub 4</a></li>
+                        </ul>
+                       </li> 
+                      <li><a href="#"><img src="assets/images/settings/user-settings.png" alt=""> Adam smith</a>
+                        <ul>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">settings</a></li>
+                        </ul>
+                       </li> 
+                        <li><a href="#">EN</a>
+                          <ul>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">GE</a></li>
+                          </ul>
+                      </li> 
+                     
+                    </ul>
+               
+               
+              </div>
+          </div>
+          <div class="settings-main-inner"> 
+            <div class="settings-container with-right-sidebar"> 
+               <div class="header-div">
+                <h2>Application status</h2>
+                <span class="status status-rejected">Rejected</span>
+                <a href="#" class="btn btn-resubmit">Resubmit Application</a>
+               </div><!--header-div-->
+               <div class="content-div align-center">
+                <div class="rejection-reason-wrap">
+                  <img src="assets/images/icon-reject.png" alt="">
+                  <h2 class="reject-heading">Your Application Was Rejected!</h2>
+                  <h3 class="reject-sub-heading">Rejection Reason</h3>
+                  <div class="rejection-reason">
+                    Here appear the rejection reason given by Super Admin.
+                  </div>
+                </div><!-- rejection-reason-wrap-->
+                
+               </div><!--content-div-->
+              <div class="right-sidebar"><div class="right-sidebar-inner">
+                   <div><img src="assets/images/app-store.png" alt=""> </div>
+                   <div><img src="assets/images/logo-2.png" alt=""> </div>
+                  <h2>Download inFlow App</h2> 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod tempor incididunt ut labore.</p>
+                  <div><a href="#"><img src="assets/images/apple-store.png" alt=""> </a><a href="#"><img src="assets/images/android-store.png" alt=""> </a></div>
+                </div></div><!-- right-sidebar-->
+            </div><!-- settings-container-->
+          </div>
+        </div><!-- settings-main end-->
+      </div>
+    </section>
+    <!-- add-card-popup starts-->
+    <div class="add-card-popup">
+       <div class="popup-overlay"></div> 
+        <div class="popup-box">
+           <div class="popup-title">Add card <span class="close-popup"></span></div>
+           <div class="card-info">
+             <div class="input-wrap card-number"><label>Card Number</label><input type="number" placeholder="7575....." class="input-field input-text"></div>
+             <div class="input-wrap col-2">
+                <div><label>Expiry</label><input type="number" placeholder="MM/YYYY" class="input-field input-text"></div>
+                <div><label>CVV</label><input type="number" placeholder="856" class="input-field input-text"></div>
+             </div>
+             <div class="input-wrap"><label>Name on card</label><input type="text" placeholder="Name" class="input-field input-text"></div>
+             <div class="input-wrap col-2">
+                <div><a href="#" class="btn btn-cancel">Cancel</a></div>
+                <div><a href="#" class="btn btn-add">ADD</a></div>
+             </div>
+           </div><!-- card-info-->
+        </div> 
+    </div>
+    <!-- add-card-popup end-->
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>

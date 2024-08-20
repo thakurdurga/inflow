@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow</title>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/setting-style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="setting-wrapper">
+      <div class="setting-container">
+        <div class="setting-sidebar">
+          <div class="setting-sidebar-inner">
+            <img src="assets/images/settings/logo-white.png" alt="">
+            <ul class="settings-nav">
+              <li><a href="#"><img src="assets/images/settings/dashboard.png" alt="">Dashboard</a></li>
+              <li><a href="#"><img src="assets/images/settings/CreditCard.png" alt="">Cards</a></li>
+              <li class="current-item"><a href="#"><img src="assets/images/settings/transactions.png" alt="">Transactions</a></li>
+              <li><a href="#"><img src="assets/images/settings/companies.png" alt="">Companies</a></li>
+              <li><a href="#"><img src="assets/images/settings/settings.png" alt="">Settings</a></li>
+            </ul>
+          </div>
+        </div><!-- setting-sidebar end-->
+        <div class="settings-main">
+          <div class="settings-menu">
+              <div class="title-wrap">Create Plan</div> 
+              <div class="nav-wrap">
+                
+                    <ul class="language-dropdown"> 
+                      <li class="no-border no-arrow">
+                        <div class="search-wrap"><input class="search-input" type="text" placeholder="Search..."></div>
+                      </li>
+                      <li class="no-border no-arrow have-notifications"><a href="#"><img src="assets/images/settings/bell.png" alt=""></a></li>
+                      <li class="big-font"><a href="#"><img src="assets/images/settings/buildings-architecture.png" alt=""> inFlow</a>
+                        <ul>
+                          <li><a href="#">sub 1</a></li>
+                          <li><a href="#">sub 2</a></li>
+                          <li><a href="#">sub 3</a></li>
+                          <li><a href="#">sub 4</a></li>
+                        </ul>
+                       </li> 
+                      <li><a href="#"><img src="assets/images/settings/user-settings.png" alt=""> Adam smith</a>
+                        <ul>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">settings</a></li>
+                        </ul>
+                       </li> 
+                        <li><a href="#">EN</a>
+                          <ul>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">GE</a></li>
+                          </ul>
+                      </li> 
+                     
+                    </ul>
+               
+               
+              </div>
+          </div>
+          <div class="settings-main-inner"> 
+            <div class="settings-container">
+              <div class="inside-nav" style="max-width: 910px;">
+                 <h2>Add details of plan</h2> 
+              </div><!-- inside-nav -->
+             
+              <div class="add-plan-details">
+                  <div class="form-row">
+                    <div><label>Name of Plan</label><input type="text" class="input-field" value="Premium Plan"></div>
+                    <div>
+                       <label>Cost of Plan</label>
+                       <div class="plan-cost">
+                         <input type="text" class="input-field" value="60">
+                         <select>
+                          <option>USD</option>
+                          <option>EUR</option>
+                          <option>INR</option>
+                         </select>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div><label>Renew period</label>
+                      <select class="select-field">
+                        <option value="Premium Plan" selected>Premium Plan</option>
+                        <option value="Yearly Plan">Yearly Plan</option>
+                        <option value="Free Plan">Free Plan</option>
+                      </select>
+                    </div>
+                    <div><label>Category of subscription plan</label>
+                      <select class="select-field">
+                        <option value="" selected>Select</option>
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                     <label>Describe Plan</label><textarea> Details of plan</textarea>
+                  </div>
+                  <div class="form-row">
+                    <input type="button" value="Cancel" class="cancel-btn">
+                    <input type="button" value="Add" class="add-btn">
+                  </div>
+              </div><!-- add-plan-details-->
+        
+            </div><!-- settings-container-->
+          </div>
+        </div><!-- settings-main end-->
+      </div>
+    </section>
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow</title>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/setting-style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="setting-wrapper">
+      <div class="setting-container">
+        <div class="setting-sidebar">
+          <div class="setting-sidebar-inner">
+            <img src="assets/images/settings/logo-white.png" alt="">
+            <ul class="settings-nav">
+              <li><a href="#"><img src="assets/images/settings/dashboard.png" alt="">Dashboard</a></li>
+              <li><a href="#"><img src="assets/images/settings/CreditCard.png" alt="">Cards</a></li>
+              <li><a href="#"><img src="assets/images/settings/transactions.png" alt="">Transactions</a></li>
+              <li><a href="#"><img src="assets/images/settings/companies.png" alt="">Companies</a></li>
+              <li class="current-item"><a href="#"><img src="assets/images/settings/settings.png" alt="">Settings</a></li>
+            </ul>
+          </div>
+        </div><!-- setting-sidebar end-->
+        <div class="settings-main">
+          <div class="settings-menu">
+              <div class="title-wrap">Settings</div> 
+              <div class="nav-wrap">
+                
+                    <ul class="language-dropdown"> 
+                      <li class="no-border no-arrow">
+                        <div class="search-wrap"><input class="search-input" type="text" placeholder="Search..."></div>
+                      </li>
+                      <li class="no-border no-arrow have-notifications"><a href="#"><img src="assets/images/settings/bell.png" alt=""></a></li>
+                      <li class="big-font"><a href="#"><img src="assets/images/settings/buildings-architecture.png" alt=""> inFlow</a>
+                        <ul>
+                          <li><a href="#">sub 1</a></li>
+                          <li><a href="#">sub 2</a></li>
+                          <li><a href="#">sub 3</a></li>
+                          <li><a href="#">sub 4</a></li>
+                        </ul>
+                       </li> 
+                      <li><a href="#"><img src="assets/images/settings/user-settings.png" alt=""> Adam smith</a>
+                        <ul>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">settings</a></li>
+                        </ul>
+                       </li> 
+                        <li><a href="#">EN</a>
+                          <ul>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">GE</a></li>
+                          </ul>
+                      </li> 
+                     
+                    </ul>
+               
+               
+              </div>
+          </div>
+          <div class="settings-main-inner"> 
+            <div class="settings-container">
+              <div class="settings-container-left">
+                <div class="content-box opened">
+                  <div class="box-title"><h2>Personal Information</h2></div>
+                  <div class="c-row"><div class="profile-pic"><img src="assets/images/user-pic.png" alt=""></div></div>
+                  <div class="c-row">
+                    <div class="profile-info">
+                      <from>
+                        <fieldset>
+                          <label>First name</label><input type="text" placeholder="First name" value="Adam">
+                        </fieldset>
+                        <fieldset>
+                          <label>Last name</label><input type="text" placeholder="Last name" value="Smith">
+                        </fieldset>
+                        <fieldset>
+                          <label>Phone</label><input type="number" placeholder="Phone" value="9876542545">
+                        </fieldset>
+                        <fieldset style="display:flex;">
+                          <input type="button" class="cancel-btn" value="Cancel"><input type="button" class="save-btn" value="Save Changes">
+                        </fieldset>
+                      </from>
+                    </div><!--profile-info-->
+                  </div>
+                </div><!--content-box-->
+                <div class="content-box">
+                  <div class="box-title"><h2>Change Email Address</h2></div> 
+                  <div class="c-row">
+                    <div class="profile-info">
+                      <from>
+                        <fieldset>
+                          <label>Email address</label><input type="text" placeholder="Email" value="">
+                        </fieldset> 
+                        <fieldset style="display:flex;">
+                          <input type="button" class="cancel-btn" value="Cancel"><input type="button" class="save-btn" value="Save Changes">
+                        </fieldset>
+                      </from>
+                    </div><!--profile-info-->
+                  </div>
+                </div><!--content-box-->
+                <div class="content-box">
+                  <div class="box-title"><h2>Update Password</h2></div> 
+                  <div class="c-row">
+                    <div class="profile-info">
+                      <from>
+                        <fieldset>
+                          <label>Old Password</label><input type="number" placeholder="Enter Old Password" value=""><span class="eye-icon"></span>
+                        </fieldset> 
+                        <fieldset>
+                          <label>New Password</label><input type="number" placeholder="Enter new password" value=""><span class="eye-icon"></span>
+                        </fieldset> 
+                        <fieldset>
+                          <label>Confirm New Password</label><input type="number" placeholder="Enter new password" value=""><span class="eye-icon"></span>
+                        </fieldset> 
+                        
+                        <fieldset style="display:flex;">
+                          <input type="button" class="cancel-btn" value="Cancel"><input type="button" class="save-btn" value="Save Changes">
+                        </fieldset>
+                      </from>
+                    </div><!--profile-info-->
+                  </div>
+                </div><!--content-box-->
+              </div><!-- settings-container-left-->
+              <div class="settings-container-right">
+                <div class="content-box opened">
+                  <div class="box-title"><h2 class="no-margin-bottom">Website preferences</h2></div> 
+                  <div class="c-row bottom-border portal-colors"> 
+                      <div class="setting-label">Change portal colors </div>
+                      <div class="colors-checkboxes">
+                        <div class="styled-check color-1"><input type="checkbox" checked><span></span></div>
+                        <div class="styled-check color-2"><input type="checkbox"><span></span></div>
+                        <div class="styled-check color-3"><input type="checkbox"><span></span></div>
+                        <a href="#" class="reset-btn">Reset Defaults</a>
+                      </div>
+                  </div>
+                  <div class="c-row bottom-border font-sizes"> 
+                    <div class="setting-label">Change Font size</div>
+                    <div class="font-sizes">
+                       <span class="font-size size-1">A</span>
+                       <span class="font-size size-2 checked">A</span>
+                       <span class="font-size size-3">A</span>
+                       <span class="font-size size-4">A</span>
+                      <a href="#" class="reset-btn">Reset Defaults</a>
+                    </div>
+                </div>
+                <div class="c-row bottom-border"> 
+                  <div class="theme-mode">
+                    <div class="setting-label">Dark Theme </div>
+                    <div class="btn-div">
+                      <label class="switch-btn">
+                        <input type="checkbox" checked>
+                        <span class="slider-btn round"></span>
+                      </label>
+                     </div>
+                    </div> 
+                </div>
+                 <div class="c-row bottom-border no-border-bottom"> 
+                      <div class="contact-methods">
+                        <div class="setting-label">Authenticate Method</div> 
+                        <div class="btn-div">
+                          <span class="email-label">Email</span>
+                          <label class="switch-btn">
+                           <input type="checkbox" checked>
+                           <span class="slider-btn round"></span>
+                         </label>
+                         <span class="phone-label">Phone</span>
+                       </div>
+                      </div> 
+                      <a href="#" class="sign-out-btn" style="margin-top:142px;">Sign Out</a> 
+                  </div>
+              
+                </div><!--content-box-->
+              </div><!-- settings-container-right--> 
+            </div><!-- settings-container-->
+          </div>
+        </div><!-- settings-main end-->
+      </div>
+    </section>
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>

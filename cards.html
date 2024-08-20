@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inFlow</title>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/setting-style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+   <section class="setting-wrapper">
+      <div class="setting-container">
+        <div class="setting-sidebar">
+          <div class="setting-sidebar-inner">
+            <img src="assets/images/settings/logo-white.png" alt="">
+            <ul class="settings-nav">
+              <li><a href="#"><img src="assets/images/settings/dashboard.png" alt="">Dashboard</a></li>
+              <li><a href="#"><img src="assets/images/settings/CreditCard.png" alt="">Cards</a></li>
+              <li class="current-item"><a href="#"><img src="assets/images/settings/transactions.png" alt="">Transactions</a></li>
+              <li><a href="#"><img src="assets/images/settings/companies.png" alt="">Companies</a></li>
+              <li><a href="#"><img src="assets/images/settings/settings.png" alt="">Settings</a></li>
+            </ul>
+          </div>
+        </div><!-- setting-sidebar end-->
+        <div class="settings-main">
+          <div class="settings-menu">
+              <div class="title-wrap">Subscription</div> 
+              <div class="nav-wrap">
+                
+                    <ul class="language-dropdown"> 
+                      <li class="no-border no-arrow">
+                        <div class="search-wrap"><input class="search-input" type="text" placeholder="Search..."></div>
+                      </li>
+                      <li class="no-border no-arrow have-notifications"><a href="#"><img src="assets/images/settings/bell.png" alt=""></a></li>
+                      <li class="big-font"><a href="#"><img src="assets/images/settings/buildings-architecture.png" alt=""> inFlow</a>
+                        <ul>
+                          <li><a href="#">sub 1</a></li>
+                          <li><a href="#">sub 2</a></li>
+                          <li><a href="#">sub 3</a></li>
+                          <li><a href="#">sub 4</a></li>
+                        </ul>
+                       </li> 
+                      <li><a href="#"><img src="assets/images/settings/user-settings.png" alt=""> Adam smith</a>
+                        <ul>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">settings</a></li>
+                        </ul>
+                       </li> 
+                        <li><a href="#">EN</a>
+                          <ul>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">GE</a></li>
+                          </ul>
+                      </li> 
+                     
+                    </ul>
+               
+               
+              </div>
+          </div>
+          <div class="settings-main-inner"> 
+            <div class="settings-container"> 
+              <ul class="plan-tabs">
+                <li><a href="manage-plan.html">Plans</a></li>
+                <li class="current_item"><a href="cards.html">Payment Method</a></li>
+              </ul>
+               <div class="payment-methods">
+                  <div class="payment-method active">
+                    <div class="card-image"><img src="assets/images/master-card.png" alt=""></div>
+                    <div class="card-details">3201 ********* 958 <span>Card Number</span></div>
+                    <div class="card-actions"><span>Primary</span> <a href="#" class="delete-icon">Delete</a></div>
+                  </div><!-- payment-method-->
+                  <div class="payment-method">
+                    <div class="card-image"><img src="assets/images/master-card.png" alt=""></div>
+                    <div class="card-details">3201 ********* 958 <span>Card Number</span></div>
+                    <div class="card-actions"><span>Mark Primary</span> <a href="#" class="delete-icon">Delete</a></div>
+                  </div><!-- payment-method-->
+                  <a href="#" class="btn btn-add-card"><span></span>Add Card</a>
+               </div><!-- payment-methods-->
+        
+            </div><!-- settings-container-->
+          </div>
+        </div><!-- settings-main end-->
+      </div>
+    </section>
+    <!-- add-card-popup starts-->
+    <div class="add-card-popup">
+       <div class="popup-overlay"></div> 
+        <div class="popup-box">
+           <div class="popup-title">Add card <span class="close-popup"></span></div>
+           <div class="card-info">
+             <div class="input-wrap card-number"><label>Card Number</label><input type="number" placeholder="7575....." class="input-field input-text"></div>
+             <div class="input-wrap col-2">
+                <div><label>Expiry</label><input type="number" placeholder="MM/YYYY" class="input-field input-text"></div>
+                <div><label>CVV</label><input type="number" placeholder="856" class="input-field input-text"></div>
+             </div>
+             <div class="input-wrap"><label>Name on card</label><input type="text" placeholder="Name" class="input-field input-text"></div>
+             <div class="input-wrap col-2">
+                <div><a href="#" class="btn btn-cancel">Cancel</a></div>
+                <div><a href="#" class="btn btn-add">ADD</a></div>
+             </div>
+           </div><!-- card-info-->
+        </div> 
+    </div>
+    <!-- add-card-popup end-->
+	<script src="assets/js/scripts.js"></script>
+  </body>
+</html>
